@@ -1,0 +1,404 @@
+.conteudo {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+
+        }
+
+        .conteudo3 {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+
+        }
+
+        .conteudo div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo3 div {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo div.active {
+            opacity: 1;
+        }
+
+        .conteudo3 div.active {
+            opacity: 1;
+        }
+
+        .conteudo2 {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+        }
+
+
+        .conteudo2 div {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo2 div.active {
+            opacity: 1;
+        }
+
+        .conteudo1 {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+
+        }
+
+
+        .conteudo1 div {
+            display: flex;
+            width: 100%;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo1 div.active {
+            opacity: 1;
+        }
+
+
+
+        label {
+            display: inline-block;
+            border-radius: 26px;
+            padding: 10px 30px;
+            background-color: #fff;
+            text-align: center;
+            cursor: pointer;
+		    margin-left: 40px;
+            margin-bottom: 10px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            
+        }
+
+        #conteudo {
+            display: none;
+        }
+
+        #btn {
+            
+        }
+
+
+        #btn+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn+label+#conteudo {
+            display: block;
+
+        }
+
+        img {
+            width: 200px;
+            padding-left: 31px;
+        }
+
+        #conteudo1 {
+            display: none;
+        }
+
+        #btn1 {
+            display: none;
+        }
+
+        #btn1:checked+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn1:checked+label+#conteudo1 {
+            display: block;
+        }
+
+        #conteudo2 {
+            display: none;
+        }
+
+        #btn2 {
+            display: none;
+        }
+
+        #btn2:checked+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn2:checked+label+#conteudo2 {
+            display: block;
+        }
+
+        #conteudo3 {
+            display: none;
+        }
+
+        #btn3 {
+            display: none;
+        }
+
+        #btn3:checked+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn3:checked+label+#conteudo3 {
+            display: block;
+        }
+    
+.container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+    #conteudo4 {
+            display: none;
+        }
+
+        #btn4 {
+            display: none;
+        }
+
+
+        #btn4:checked+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn4:checked+label+#conteudo4 {
+            display: block;
+
+        }
+
+
+        .conteudo4 {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+
+        }
+
+        .conteudo4 div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo4 div.active {
+            opacity: 1;
+        }
+         #conteudo5 {
+            display: none;
+        }
+
+        #btn5 {
+            display: none;
+        }
+
+
+        #btn5:checked+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn5:checked+label+#conteudo5 {
+            display: block;
+
+        }
+
+
+        .conteudo5 {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+
+        }
+
+        .conteudo5 div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo5 div.active {
+            opacity: 1;
+        }
+         #conteudo6 {
+            display: none;
+        }
+
+        #btn6 {
+            display: none;
+        }
+
+
+        #btn6+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn6+label+#conteudo6 {
+            display: block;
+
+        }
+
+
+        .conteudo6 {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+
+        }
+
+        .conteudo6 div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo6 div.active {
+            opacity: 1;
+        }
+          #conteudo7 {
+            display: none;
+        }
+
+        #btn7 {
+            display: none;
+        }
+
+
+        #btn7:checked+label {
+            background-color: #CE001E;
+            color: white;
+        }
+
+        #btn7:checked+label+#conteudo7 {
+            display: block;
+
+        }
+
+
+        .conteudo7 {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+
+        }
+
+        .conteudo7 div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            z-index: 1000;
+        }
+
+        .conteudo7 div.active {
+            opacity: 1;
+        }
